@@ -2,7 +2,7 @@
 
 AndroidPassReminder is a sample project to test and show the new functionalities introduced with version 2.4.6 of SPASSDroid.
 
-SPASSDroid (the SII application for ticket inspectors, used to verify if a smartcard has been correctly validated) now can be integrated with 3rd party Android applications, through the standarda mechanism of [Intents](http://developer.android.com/reference/android/content/Intent.html).
+SPASSDroid (the SII application for ticket inspectors, used to verify if a smartcard has been correctly validated) now can be integrated with 3rd party Android applications, through the standard mechanism of [Intents](http://developer.android.com/reference/android/content/Intent.html).
 
 The first intent is fired every time a smartcard (a Tag, in Andorid) is sucessfully read. This intent, for privacy reasons (i.e. to avoid automatic personal data collection) contains only the `cardid` (the Mifare UID) and the `ctype` (the SII card type), which may be one of:
   - 70 Abo65
