@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ticket">Kartenstatus</string>
+    <string name="name">Name</string>
+    <string name="codfisc">Steuernummer</string>
+    <string name="email">Email</string>
+    <string name="phone">Telefonnummer</string>
+    <string name="mobile">Handy</string>
+    <string name="fax">Fax</string>
+    <string name="street">Adresse</string>
+    <string name="location">Localität</string>
+    <string name="town">Stadt</string>
+    <string name="district">Proviny/Land</string>
+    <string name="zip">ZIP</string>
+    <string name="country">Staat</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ticket">Stato della tessera</string>
+    <string name="name">Nome</string>
+    <string name="codfisc">Codice fiscale</string>
+    <string name="email">Email</string>
+    <string name="phone">Telefono</string>
+    <string name="mobile">Cellulare</string>
+    <string name="fax">Fax</string>
+    <string name="street">Indirizzo</string>
+    <string name="location">Località</string>
+    <string name="town">Città</string>
+    <string name="district">Provincia/Area</string>
+    <string name="zip">CAP</string>
+    <string name="country">Stato</string>
+</resources>

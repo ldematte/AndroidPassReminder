@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:padding="20dp">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtName"
+                android:textIsSelectable="true"
+                android:hint="@string/reminderHint"
+                android:textSize="9pt"/>
+
+
+        <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup"
+                android:layout_margin="5dp">
+
+            <RadioButton
+                    android:text="@string/radioFined"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioFined"
+                    android:checked="true"
+                    android:textSize="9pt"/>
+
+            <RadioButton
+                    android:text="@string/radioNoValidate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioNoValidate"
+                    android:textSize="9pt"/>
+
+            <RadioButton
+                    android:text="@string/radioMissingOption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioMissingOption"
+                    android:textSize="9pt"/>
+
+            <RadioButton
+                    android:text="@string/radioDoubleCheckIn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioDoubleCheckIn"
+                    android:textSize="9pt"/>
+        </RadioGroup>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnRememberText"
+                    android:id="@+id/save"
+                    android:textSize="9pt"
+                    android:layout_margin="10dp"/>
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnInfoText"
+                    android:id="@+id/info"
+                    android:textSize="9pt"
+                    android:layout_margin="10dp"/>
+        </LinearLayout>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dbContent"
+                android:textIsSelectable="true"
+                android:inputType="textMultiLine"
+                android:hint="@string/error_no_data"
+                android:textSize="9pt"/>
+    </LinearLayout>
+</LinearLayout>
+
